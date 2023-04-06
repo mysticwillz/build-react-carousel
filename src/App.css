@@ -1,0 +1,38 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 100%;
+  background-color: rgb(250, 250, 250);
+  height: 100vh;
+  margin: 0 auto;
+}
+.carouselContainer {
+  display: flex;
+
+  gap: 1rem;
+  width: 50%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.carousel {
+  width: 20rem;
+  height: 10rem;
+  background-color: aquamarine;
+}
+
+.prev,
+.next {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  background: blue;
+}
